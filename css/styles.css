@@ -28,45 +28,50 @@ hr{
   height:850px;
 }
 .name{
-  position: relative;
+  position: absolute;
   font-family: 'thash';
   font-size: 4.2rem;
-  margin-right: 280px;
-  left: 135px;
-  top: 0px;
-  margin-top: 50px;
+  right: 200px;
+  top: 150px;
+  bottom: 600px;
+  left: 200px;
 }
 
 .subtitle {
-  position: relative;
+  position: absolute;
   font-family: 'thash';
   font-size: 2.1rem;
-  margin-top: 0px;
-  right: 10px;
-  bottom: 50px;
+  left: 200px;
+  margin-bottom: 0px;
+  right: 200px;
+  top: 275px;
+  bottom: 500px;
+  margin-top: 0px
 }
 .moon {
-  position: relative;
-  margin-right: 250px;
+  position: absolute;
   width:30%;
-  bottom: 50px;
+  bottom: 0px;
+  top: 350px;
+  right: 550px;
+  left: 500px;
 }
 .star2 {
-  position: relative;
+  position: absolute;
   width: 10%;
-  top: 350px;
-  right: 300px;
+  left: 400px;
+  right: 0px;
+  bottom: 400px;
+  top: 300px;
 }
 
 .star1 {
-  position: relative;
+  position: absolute;
   width: 10%;
-  bottom: 650px;
-  left: 600px;
-}
-}
-.middle {
-
+  right: 0px;
+  left: 950px;
+  bottom: 600px;
+  top: 100px
 }
 .profile
 {
