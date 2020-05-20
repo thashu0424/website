@@ -58,25 +58,21 @@ body {
 }
 
 .moon {
-  margin: 0,auto,auto,auto;
+margin-right: 200px;
 }
 
 .star2 {
-  position: absolute;
-  bottom: 425px;
-  left: 400px;
-  top: auto;
-  right: auto;
+  position: relative;
   max-width: 150px;
+  top: 385px;
+ right: 300px;
 }
 
 .star1 {
-  position: absolute;
-  right: 380px;
-  top: 25px;
-  bottom: auto;
-  left: auto;
+  position: relative;
   max-width: 150px;
+  left: 600px;
+  bottom: 700px;
 }
 
 .profilepic {
