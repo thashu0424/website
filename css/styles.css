@@ -11,10 +11,14 @@
   font-family: "thash2";
   src: url("../fonts/Vakansy.otf");
 }
+
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   text-align: center;
   background-color: #c9a0dc;
+  overflow-x: hidden;
 }
 hr{
   border-style: dotted none none none;
@@ -22,10 +26,12 @@ hr{
   border-width: 10px;
   color:  #6B4984;
   }
+
 .top {
   position: relative;
   background-color: #6B4984;
   height:850px;
+  width: 100%;
 }
 .name{
   position: absolute;
@@ -52,14 +58,13 @@ hr{
   position: absolute;
   width:30%;
   bottom: 0px;
-  top: 350px;
-  right: 550px;
-  left: 500px;
+  top: 40%;
+  right: 40%;
 }
 .star2 {
   position: absolute;
   width: 10%;
-  left: 400px;
+  left: 20%;
   right: 0px;
   bottom: 400px;
   top: 300px;
@@ -68,8 +73,7 @@ hr{
 .star1 {
   position: absolute;
   width: 10%;
-  right: 0px;
-  left: 950px;
+  right: 20%;
   bottom: 600px;
   top: 100px
 }
