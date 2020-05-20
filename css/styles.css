@@ -1,37 +1,92 @@
 @font-face {
-    font-family: "thash";
-    src: url("../fonts/papu.ttf");
+  font-family: "thash";
+  src: url("../fonts/papu.ttf");
 }
-  h1
-  {
-    margin-top:0;
-  }
-  body
-  {
-    margin: 0;
-    text-align: center;
-    font-family: 'thash';
-    font-size: 30px;
-  }
-  .top{
-    background-color:  #6B4984;
+
+@font-face {
+  font-family: "thash1";
+  src: url("../fonts/Hawkeye.otf");
+}
+@font-face {
+  font-family: "thash2";
+  src: url("../fonts/Vakansy.otf");
+}
+
+h1 {
+  font-family: 'thash';
+  font-size: 70px;
+}
+
+.subtitle {
   position: relative;
-  padding-top: 100px;
-  }
-  .moon{
-    margin-top:0;
-  }
-  .star2
-  {
-    position: absolute;
-    bottom:425px;
-    left:400px;
-    max-width:150px;
-    }
-  .star1
-  {
-    position: absolute;
-    right: 380px;
-    top:25px;
-    max-width:150px;
-  }
+  font-family: 'thash';
+  font-size: 30px;
+  bottom: 50px;
+  top:0;
+  left: auto;
+  right: auto;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #6B4984;
+}
+.innertext
+{
+  font-family: 'thash2';
+  font-size: 20px;
+}
+
+.middle {
+  font-family: 'thash1';
+  font-size: 25px;
+}
+.contact-me
+{
+  font-size: 25px;
+}
+.contactpara
+{
+  font-family: 'thash2';
+  font-size: 20px;
+}
+
+.top {
+  position: relative;
+  padding-top:  100px;
+}
+
+.moon {
+  margin: 0,auto,auto,auto;
+}
+
+.star2 {
+  position: absolute;
+  bottom: 425px;
+  left: 400px;
+  top: auto;
+  right: auto;
+  max-width: 150px;
+}
+
+.star1 {
+  position: absolute;
+  right: 380px;
+  top: 25px;
+  bottom: auto;
+  left: auto;
+  max-width: 150px;
+}
+
+.profilepic {
+  max-width: 200px;
+}
+
+.skill1 {
+  max-width: 200px;
+}
+
+.skill2 {
+  max-width: 200px;
+}
