@@ -5,44 +5,91 @@
 
 @font-face {
   font-family: "thash1";
-  src: url("../fonts/Hawkeye.otf");
+  src: url("../fonts/play.ttf");
 }
 @font-face {
   font-family: "thash2";
   src: url("../fonts/Vakansy.otf");
 }
-
-h1 {
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #c9a0dc;
+}
+hr{
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: 10px;
+  color:  #6B4984;
+  }
+.top {
+  position: relative;
+  background-color: #6B4984;
+  height:850px;
+}
+.name{
+  position: relative;
   font-family: 'thash';
-  font-size: 4.375rem;
+  font-size: 4.2rem;
+  margin-right: 280px;
+  left: 135px;
+  top: 0px;
+  margin-top: 50px;
 }
 
 .subtitle {
   position: relative;
   font-family: 'thash';
-  font-size: 1.875rem;
+  font-size: 2.1rem;
+  margin-top: 0px;
+  right: 10px;
   bottom: 50px;
-
+}
+.moon {
+  position: relative;
+  margin-right: 250px;
+  width:30%;
+  bottom: 50px;
+}
+.star2 {
+  position: relative;
+  width: 10%;
+  top: 350px;
+  right: 300px;
 }
 
-body {
-  margin: 0;
-  text-align: center;
-  background-color: #6B4984;
+.star1 {
+  position: relative;
+  width: 10%;
+  bottom: 650px;
+  left: 600px;
+}
+}
+.middle {
+
+}
+.profile
+{
+  margin-bottom: 100px;
+  font-family: 'thash1';
+  font-size: 1.75rem;
+}
+.skills{
+  margin-bottom: 100px;
+  margin-top: 100px;
+  font-family: 'thash1';
+  font-size: 1.75rem;
 }
 .innertext
 {
   font-family: 'thash2';
-  font-size: 1.25rem;
-}
-
-.middle {
-  font-family: 'thash1';
-  font-size: 1.563rem;
+  font-size: 1.3rem;
 }
 .contact-me
 {
-  font-size: 1.563rem;
+  margin-top: 100px;
+  font-size: 1.75rem;
+  font-family: 'thash1';
 }
 .contactpara
 {
@@ -50,37 +97,15 @@ body {
   font-size: 1.25rem;
 }
 
-.top {
-  position: relative;
-  padding-top:  100px;
-}
-
-.moon {
-margin-right: 200px;
-}
-
-.star2 {
-  position: relative;
-  max-width: 150px;
-  top: 385px;
- right: 300px;
-}
-
-.star1 {
-  position: relative;
-  max-width: 150px;
-  left: 600px;
-  bottom: 700px;
-}
-
 .profilepic {
-  max-width: 200px;
+  width: 14%;
+  margin-top: 150px;
 }
 
 .skill1 {
-  max-width: 200px;
+  width: 14%;
 }
 
 .skill2 {
-  max-width: 200px;
+  width: 14%;
 }
