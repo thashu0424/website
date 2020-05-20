@@ -23,7 +23,6 @@ hr{
   color:  #6B4984;
   }
 .top {
-  margin: 0 0 0 0;
   position: relative;
   background-color: #6B4984;
   height:850px;
@@ -32,47 +31,45 @@ hr{
   position: absolute;
   font-family: 'thash';
   font-size: 4.2rem;
-  right: 200px;
-  top: 150px;
-  bottom: 600px;
-  left: 200px;
+  right: 30%;
+  top: 18%;
+  left: 30%;
 }
 
 .subtitle {
   position: absolute;
   font-family: 'thash';
   font-size: 2.1rem;
-  left: 200px;
   margin-bottom: 0px;
-  right: 200px;
-  top: 275px;
-  bottom: 500px;
   margin-top: 0px
+  left: 30%;
+  right: 40%;
+  top: 28%;
 }
 .moon {
   position: absolute;
   width:30%;
   bottom: 0px;
-  top: 350px;
-  right: 550px;
-  left: 500px;
+  top: 40%;
+  right: 60%;
+  left: 35%;
 }
 .star2 {
   position: absolute;
   width: 10%;
-  left: 400px;
+  left: 30%;
   right: 0px;
-  bottom: 400px;
-  top: 300px;
+  bottom: 40%;
+  top: 40%;
 }
 
 .star1 {
   position: absolute;
   width: 10%;
   right: 0px;
-  left: 950px;
-  bottom: 600px;
-  top: 100px
+  left: 69%;
+  bottom: 10%;
+  top: 15%;
 }
 .profile
 {
