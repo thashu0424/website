@@ -14,13 +14,13 @@
 
 h1 {
   font-family: 'thash';
-  font-size: 70px;
+  font-size: 4.375rem;
 }
 
 .subtitle {
   position: relative;
   font-family: 'thash';
-  font-size: 30px;
+  font-size: 1.875rem;
   bottom: 50px;
 
 }
@@ -33,21 +33,21 @@ body {
 .innertext
 {
   font-family: 'thash2';
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .middle {
   font-family: 'thash1';
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 .contact-me
 {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 .contactpara
 {
   font-family: 'thash2';
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .top {
