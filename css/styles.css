@@ -30,7 +30,7 @@ hr{
 .name{
   position: absolute;
   font-family: 'thash';
-  font-size: 4.2rem;
+  font-size: 5vw;
   right: 30%;
   top: 18%;
   left: 30%;
@@ -39,7 +39,7 @@ hr{
 .subtitle {
   position: absolute;
   font-family: 'thash';
-  font-size: 2.1rem;
+  font-size: 2.8vw;
   margin-bottom: 0px;
   margin-top: 0px
   left: 30%;
@@ -75,29 +75,31 @@ hr{
 {
   margin-bottom: 100px;
   font-family: 'thash1';
-  font-size: 1.75rem;
+  font-size: 1.75vw;
 }
 .skills{
   margin-bottom: 100px;
   margin-top: 100px;
   font-family: 'thash1';
-  font-size: 1.75rem;
+  font-size: 1.75vw;
 }
 .innertext
 {
   font-family: 'thash2';
-  font-size: 1.3rem;
+  font-size: 1.3vw;
 }
 .contact-me
 {
+  background-color:  #6B4984;
+  padding-top: 20px;
   margin-top: 100px;
-  font-size: 1.75rem;
+  font-size: 1.5vw;
   font-family: 'thash1';
 }
 .contactpara
 {
   font-family: 'thash2';
-  font-size: 1.25rem;
+  font-size: 1.3vw;
 }
 
 .profilepic {
@@ -111,4 +113,13 @@ hr{
 
 .skill2 {
   width: 14%;
+}
+.bottom
+{
+  background-color:  #6B4984;
+}
+.copyright
+{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
 }
