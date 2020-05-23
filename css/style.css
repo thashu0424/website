@@ -1,0 +1,137 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "thash1";
+  src: url("../fonts/light.ttf");
+}
+
+@font-face {
+  font-family: "thash2";
+  src: url("../fonts/regular.ttf");
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+  text-align: center;
+}
+
+#main-head {
+  padding-top: 2.8rem;
+  font-family: "thash1", sans-serif;
+  font-size: 1.9rem;
+  margin: auto;
+  color: grey;
+}
+
+#sub-head {
+  font-family: "thash2", sans-serif;
+  font-weight: bold;
+  font-size: 1.9rem;
+  margin: auto;
+}
+
+.containers {
+  color: grey;
+  align-self: center;
+  display: inline-block;
+  font-family: "thash1", sans-serif;
+  font-size: 15px;
+  width: 32vw;
+}
+
+#boxes {
+  font-family: "thash1", sans-serif;
+  font-weight: 200;
+  position: relative;
+}
+
+#boxes h1 {
+  font-family: "thash2", sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+}
+
+#boxes p {
+  padding-left: 1rem;
+  font-size: 0.7rem;
+  color:grey;
+}
+
+.box1 {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  width: 17rem;
+  height: 12rem;
+  border-radius: 4px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  right: 0px;
+  left: 300px;
+  top: 200px;
+}
+
+.box2 {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  width: 17rem;
+  height: 12rem;
+  border-radius: 4px;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  margin-top: 50px;
+  margin-left: 350px;
+  left: 250px;
+  right: 400px;
+  top: 40px;
+}
+
+.box3 {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  width: 17rem;
+  height: 12rem;
+  border-radius: 4px;
+  border-top: 3px solid hsl(34, 97%, 64%);
+  right: 300px;
+  left: 900px;
+  top: 200px
+}
+
+.box4 {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  width: 17rem;
+  height: 12rem;
+  border-radius: 4px;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  right: 0%;
+  left: 600px;
+  top: 315px;
+}
+
+.image {
+  padding-top: 3rem;
+  float: right;
+  width: 19%;
+  height: 27%;
+  padding-right: 1rem;
+}
+
+.attribution {
+  border-top-width: 200px;
+  padding-top: 600px;
+}
